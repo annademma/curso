@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Delicious Handrawn', cursive;
     font-family: 'Roboto Mono', monospace;
+
 }
 
 html {
@@ -10,70 +11,120 @@ html {
 }
 
 
+/*----------estilos footer general------------*/
 
-/*-------estilos del header------*/
+footer{
+    background-color:#33a560;
+    text-align: center;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+}
+
+footer .footer-texto p{
+    margin: 0;
+}
+
+footer .redes-sociales a img:hover{
+    filter: contrast(0.9);
+}
+
+/*-------estilos del header general------*/
 
 .header-all .navbar{
     justify-content: center;
     position: sticky;
 }
 
+.header-all .navbar-nav{
+    text-align: center;
+}
+
 .navbar-toggler{
-    margin: 20px;
+    margin: 1.25em;
 }
 
 .header-all .navbar .navbar-brand{
     color: #def4c6;
-    margin: 20px;
+    margin: 1.25em;
 }
-
 
 .header-all .navbar .navbar-nav .nav-item .nav-link{
     color:#def4c6;
 }
-
-
-/*--------estilos del main-------*/
-
-main{
-    background-color:#33a560;
-}
-
-.texto-principal h1{
-    font-size: 35px;
-    text-align: right;
-    padding: 10px 10px;
-}
-
-.imgDecoracion{
-    width: 500px;
-    height: 605px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding: 15px;
-    border-radius: 30px;
-}
-
-.conteinerImg{
-    display: flex;
-    justify-content: center;
-}
-
-/*--- estilos del main page:work----*/
 
 .title h2{
     color: #def4c6;
     text-align: center;
     text-decoration: underline dotted;
     padding-top: 30px;
+    padding-bottom: 30px;
+}
+/*--------estilos del main: index-------*/
+
+.main-index{
+    background: url(../img/lawrence-kayku-ZVKr8wADhpc-unsplash.jpg);
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    height: 40rem;
+}
+
+.texto-principal h1{
+    font-size: 4em;
+    color: #b6eea6;
+}
+
+.texto-principal h2{
+    color: #b6eea6;
+    font-size: 2em;
+    padding-top: 1em;
+}
+
+.texto-principal .btn{
+    padding-top: 0.5em;
+    margin: 1em;
+}
+
+.conteiner-main .row{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+/*
+.main-index .container-main .row .space{
+    height: 12.5rem;
+    width: 18.75rem;
+    border: #f0f0c9 solid 6px;
+}
+
+
+
+*/
+/*--- estilos del main page:work----*/
+
+.main-work{
+    background: url(../img/2983724.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.title-work{
+    color: #1b512d;
+    text-align: center;
+    text-decoration: underline dotted;
+    padding-top: 1.875em;
+    padding-bottom: 1.875em;
+    font-size: xx-large;
 }
 
 .grid-container{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-auto-rows: minmax(200px, auto);
-    padding: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(18.75rem, 2fr));
+    grid-auto-rows: minmax(12.5rem, auto);
+    padding: 1.25em;
     gap: 20px;
     grid-auto-flow: dense;
 }
@@ -82,77 +133,192 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px;
+    margin: 1.25em;
     background-position: centers;
 }
 
 .grid-item img{
-    height: 200px;
-    width: 300px;
-    border: #def4c6 solid 5px;
+    height: 12.5rem;
+    width: 18.75rem;
+    border: #f0f0c9 solid 6px;
 }
 
 .grid-item img:hover{
     filter: opacity(0.9);
 }
 
-/*----------estilos footer------------*/
-footer{
-    background-color:#33a560;
-    text-align: center;
-    padding-bottom: 20px;
-}
 
-footer .footer-texto p{
+/*---------estilos del other projects-----*/ 
+
+.main-other{
+    background: url(../img/ronit-shaked-2tNMDLI7nm4-unsplash.jpg);
     margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
 }
 
-@media (max-width: 1400px){
+.grid-container-work{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(31.25rem, 1fr));
+    grid-auto-rows: minmax(12.5rem, auto);
+    padding: 1.25em;
+    gap: 20px;
+    grid-auto-flow: dense;
+}
 
-    main section {
-        
-        
-        width: 60%;
-        justify-content: center;
-        
-    }
+.grid-item-work{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.25em;
+    background-position: centers;
+}
+
+.grid-item-work img{
+    height: 37.5rem;
+    width: 31.25rem;
+    border: #f0f0c9 solid 6px;
+    border-bottom: #f0f0c9 solid 85px;
+    border-radius: 5px;
+}
+
+.grid-item-work img:hover{
+    filter: opacity(0.9);
+}
+
+
+
+/*estilos del main:about me*/
+
+main{
+    background-color: #33a560;
+}
+
+
+main .about{
+    background-color:#084e31;
+    padding: 5em;
+}
+
+
+
+.imagen{
+    height: 31.25rem;
+    width: 37.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-yo{
+    width: 20rem;
+    height: 35rem;
+    border-radius: 60%;
+    border: #def4c6 solid 5px;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #def4c6 solid 2px;
+}
+
+.text-yo{
+    color: #def4c6;
+    height: 12.5rem;
+    width: 40.625rem;
+    padding: 1.25em;
+    padding-right: 3.75em;
+    margin-right: 5.625em;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+
+
+/*--------Contact------*/
+
+
+.main-contact{
+    color: #def4c6;
+    background-color: #084e31;
+}
+
+.main-contact .text-contact{
+    text-align: center;
+    padding-top: 1em;
+}
+
+.main-contact form{
+    padding: 4em 4em 4em 4em;
+}
+
+.main-contact  form .mb-3 .form-text{
+    color: #def4c6;
+}
+
+.main-contact .container-fluid .display-contact{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2em;
+}
+
+.main-contact .contact-social-media{
+    border: solid #b6eea6 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 0.5em;
+    margin-top: 5.2em;
+    height: 10rem;
+    width: 18rem;
+}
+
+
+
+/*max-width (menor a mayor)*/
+
+@media (max-width: 1200px){
 
 }
 
-@media (max-width: 1228px) {
-    main section {
-        
-        
-        width: 70%;
-        justify-content: center;
-        
-    }
+
+
+@media (max-width: 960px){
 
 }
 
-@media (max-width: 877px) {
-
-    main section {
-        
-        
-        width: 100%;
-        justify-content: center;
-        
-    }
-
-
-
-}
 
 @media (max-width: 480px) {
-    header h1 {
-        font-size: 1rem;
+
+    .row .texto{
+        height: 45vh;
+        padding: 0.5rem;
     }
-    footer .titulo h2 {
-        font-size: 1rem;
+    .about .texto .text-yo{
+        margin: 0;
+        padding: 0;
+        height: 35vh;
     }
-    
-    article img {
-        width: 100%;
+
+    .conteinerImg{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .conteinerImg .imgDecoracion{
+        width: 50%;
+    }
+
+
+    .texto-principal h1{
+        font-size: 3em;
+    }
+
+    .texto-principal h2{
+        font-size: 1em;
     }
 }
