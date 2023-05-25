@@ -67,12 +67,13 @@ footer .redes-sociales a img:hover{
     margin: 0;
     background-size: cover;
     background-position: center;
-    height: 40rem;
+    height: 45rem;
 }
 
 .texto-principal h1{
     font-size: 4em;
     color: #b6eea6;
+    padding-top: 0.5em;
 }
 
 .texto-principal h2{
@@ -91,16 +92,8 @@ footer .redes-sociales a img:hover{
     justify-content: right;
     align-items: center;
 }
-/*
-.main-index .container-main .row .space{
-    height: 12.5rem;
-    width: 18.75rem;
-    border: #f0f0c9 solid 6px;
-}
 
 
-
-*/
 /*--- estilos del main page:work----*/
 
 .main-work{
@@ -158,6 +151,13 @@ footer .redes-sociales a img:hover{
     background-position: center;
 }
 
+.main-other .title h6{
+    font-size: large;
+    color: #def4c6;
+    padding: 2em 6em;
+    text-align: center;
+}
+
 .grid-container-work{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(31.25rem, 1fr));
@@ -179,7 +179,7 @@ footer .redes-sociales a img:hover{
     height: 37.5rem;
     width: 31.25rem;
     border: #f0f0c9 solid 6px;
-    border-bottom: #f0f0c9 solid 85px;
+    border-bottom: #f0f0c9 solid 5.313rem;
     border-radius: 5px;
 }
 
@@ -223,6 +223,11 @@ main .about{
     justify-content: center;
     align-items: center;
     border: #def4c6 solid 2px;
+    background: url(../img/lawrence-kayku-ZVKr8wADhpc-unsplash.jpg);
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
 }
 
 .text-yo{
@@ -293,6 +298,43 @@ main .about{
 
 
 @media (max-width: 480px) {
+    
+
+    .main-other .title h6{
+        padding: 2em 2em;
+    }
+
+    .grid-container-work{
+        padding: 3.5em;
+    }
+
+    .grid-item-work{
+        grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+        grid-auto-rows: minmax(10rem, auto);
+        width: 10rem;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .grid-item-work img{
+        width: 12rem;
+        height: 18rem;
+    }
+
+    .grid-container{
+        padding: 3.5em;
+    }
+
+    .grid-item{
+        width: 10rem;
+    }
+
+
+    .grid-container .grid-item img{
+        width: 12rem;
+        height: 10rem;
+    }
+
 
     .row .texto{
         height: 45vh;
@@ -316,6 +358,7 @@ main .about{
 
     .texto-principal h1{
         font-size: 3em;
+        padding-top: 1em;
     }
 
     .texto-principal h2{
