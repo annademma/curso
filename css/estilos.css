@@ -87,11 +87,18 @@ footer .redes-sociales a img:hover{
     margin: 1em;
 }
 
+.texto-principal .link-btn{
+    text-decoration: none;
+    color: #b6eea6;
+}
+
 .conteiner-main .row{
     display: flex;
     justify-content: right;
     align-items: center;
 }
+
+
 
 
 /*--- estilos del main page:work----*/
