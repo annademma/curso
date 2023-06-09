@@ -20,6 +20,7 @@ main{
     margin-bottom: 2.5em;
     
 }
+
 .img-yo{
         width: 20rem;
         height: 35rem;
@@ -36,19 +37,19 @@ main{
     background-size: cover;
     background-position: center;
     opacity: 0.9;
+    .text-yo{
+        color: $white-color;
+        height: fit-content;
+        width: fit-content;
+        padding: 1.25em;
+        padding-right: 1em;
+        margin-right: 1em;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
 }
 
-.text-yo{
-    color: $white-color;
-    height: fit-content;
-    width: fit-content;
-    padding: 1.25em;
-    padding-right: 1em;
-    margin-right: 1em;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-}
 
 
 

@@ -1,6 +1,7 @@
 $background-other: url(../img/ronit-shaked-2tNMDLI7nm4-unsplash.jpg);
 $green-color: #1b512d;
 $white-color:#def4c6;
+$green-light-light-color:#b6eea6;
 $padding-other: 2em 6em;
 $img-width-other:31.25rem;
 $img-height-other:38rem;
@@ -37,11 +38,22 @@ $img-height-other:38rem;
     align-items: center;
     justify-content: center;
     margin: 1.25em;
+    margin-bottom: 5em;
     background-position: centers;
+    p{
+        color: $green-color;
+        font-size: medium;
+        background-color: $green-light-light-color;
+        box-shadow: 0 10px 6px rgba(0, 0, 0, 0.1);
+        padding: 1em;
+        border: $green-color solid 0.2px;
+        border-radius: 4px;
+        font-style: italic;
+    }
     img{
         height: $img-height-other;
         width: $img-width-other;
-        border: $white-color solid 6px;
+        border: $white-color solid 8px;
         border-radius: 5px;
         border-bottom: $white-color solid 5.313rem;
     }

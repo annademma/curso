@@ -4,11 +4,15 @@ $white-color:#def4c6;
 $green-light-light-color:#b6eea6;
 
 .main-contact{
+    height: 29.3rem;
     color: $white-color;
     background-color: $green-dark-color;
     .text-contact{
         text-align: center;
-        padding-top: 1em;
+        padding-top: 2em;
+        font-style: italic;
+        padding-left: 1em;
+        padding-right: 1em;
     }
 }
 
@@ -35,5 +39,9 @@ form{
         margin-top: 5.2em;
         height: 10rem;
         width: 18rem;
+        img:hover{
+            transform: scale(1.1);
+            transition-duration: 1.5s;
+        }
     }
 }

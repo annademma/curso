@@ -39,6 +39,10 @@ html {
     .imagen{
         margin-bottom: 5em;
     }
+    .grid-item-work img{
+        width: 70%;
+        height: 95%;
+    }
 }
 
 
@@ -46,7 +50,7 @@ html {
 @media (max-width: 480px){
         .grid-item-work img{
         width: 80%;
-        height: 80%;
+        height: fit-content;
     }
     .grid-item-work{
         display: grid;
@@ -54,6 +58,7 @@ html {
         place-items: center;
         width: 65%;
         margin: 0;
+        padding-left: 3em;
     }
     .imagen{
         margin-bottom: 5em;
@@ -76,6 +81,7 @@ html {
         width: 15rem;
         align-items: center;
         justify-content: center;
+        padding-left: 2em;
     }
     
     .grid-item-work img{

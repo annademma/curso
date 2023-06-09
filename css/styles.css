@@ -1,14 +1,16 @@
 footer {
+  height: 5.5rem;
   background-color: #33a560;
   text-align: center;
-  padding-top: 1.25em;
-  padding-bottom: 1.25em;
+  padding-top: 1.5em;
+  padding-bottom: 0.5em;
 }
 footer .footer-texto p {
   margin: 0;
 }
 footer .redes-sociales a img:hover {
-  filter: contrast(0.9);
+  transform: scale(1.1);
+  transition-duration: 0.5s;
 }
 
 .header-all .navbar {
@@ -35,22 +37,22 @@ footer .redes-sociales a img:hover {
   margin: 0;
   background-size: cover;
   background-position: center;
-  height: 45rem;
+  height: 29.3rem;
 }
 
 .texto-principal h1 {
-  font-size: 4em;
+  font-size: 3em;
   color: #b6eea6;
   padding-top: 0.5em;
 }
 .texto-principal h2 {
   color: #b6eea6;
-  font-size: 2em;
+  font-size: 1.5em;
   padding-top: 1em;
 }
 .texto-principal .btn {
   padding-top: 0.5em;
-  margin: 1em;
+  margin: 0.3em;
 }
 .texto-principal .link-btn {
   text-decoration: none;
@@ -103,7 +105,10 @@ footer .redes-sociales a img:hover {
   border-radius: 8px;
 }
 .grid-item img:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   filter: opacity(0.9);
+  transform: scale(1.1);
+  transition-duration: 1s;
 }
 
 .main-other {
@@ -134,12 +139,23 @@ footer .redes-sociales a img:hover {
   align-items: center;
   justify-content: center;
   margin: 1.25em;
+  margin-bottom: 5em;
   background-position: centers;
+}
+.grid-item-work p {
+  color: #1b512d;
+  font-size: medium;
+  background-color: #b6eea6;
+  box-shadow: 0 10px 6px rgba(0, 0, 0, 0.1);
+  padding: 1em;
+  border: #1b512d solid 0.2px;
+  border-radius: 4px;
+  font-style: italic;
 }
 .grid-item-work img {
   height: 38rem;
   width: 31.25rem;
-  border: #def4c6 solid 6px;
+  border: #def4c6 solid 8px;
   border-radius: 5px;
   border-bottom: #def4c6 solid 5.313rem;
 }
@@ -161,8 +177,10 @@ main .about {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2.5em;
 }
-.imagen .img-yo {
+
+.img-yo {
   width: 20rem;
   height: 35rem;
   border-radius: 60%;
@@ -173,7 +191,7 @@ main .about {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: #def4c6 solid 2px;
+  border: #def4c6 solid 3px;
   background: url(../img/lawrence-kayku-ZVKr8wADhpc-unsplash.jpg);
   padding: 0;
   background-size: cover;
@@ -182,23 +200,27 @@ main .about {
 }
 .texto .text-yo {
   color: #def4c6;
-  height: 12.5rem;
-  width: 40.625rem;
+  height: fit-content;
+  width: fit-content;
   padding: 1.25em;
-  padding-right: 3.75em;
-  margin-right: 5.625em;
+  padding-right: 1em;
+  margin-right: 1em;
   display: flex;
   justify-content: right;
   align-items: center;
 }
 
 .main-contact {
+  height: 29.3rem;
   color: #def4c6;
   background-color: #084e31;
 }
 .main-contact .text-contact {
   text-align: center;
-  padding-top: 1em;
+  padding-top: 2em;
+  font-style: italic;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 form {
@@ -223,6 +245,10 @@ form .mb-3 .form-text {
   height: 10rem;
   width: 18rem;
 }
+.container-fluid .contact-social-media img:hover {
+  transform: scale(1.1);
+  transition-duration: 1.5s;
+}
 
 * {
   margin: 0;
@@ -243,11 +269,22 @@ html {
   padding-bottom: 30px;
 }
 
-/*max-width (menor a mayor)*/
+@media (max-width: 600px) {
+  .texto {
+    padding: 1em;
+  }
+  .imagen {
+    margin-bottom: 5em;
+  }
+  .grid-item-work img {
+    width: 70%;
+    height: 95%;
+  }
+}
 @media (max-width: 480px) {
   .grid-item-work img {
     width: 80%;
-    height: 80%;
+    height: fit-content;
   }
   .grid-item-work {
     display: grid;
@@ -255,6 +292,10 @@ html {
     place-items: center;
     width: 65%;
     margin: 0;
+    padding-left: 3em;
+  }
+  .imagen {
+    margin-bottom: 5em;
   }
 }
 @media (max-width: 320px) {
@@ -268,6 +309,7 @@ html {
     width: 15rem;
     align-items: center;
     justify-content: center;
+    padding-left: 2em;
   }
   .grid-item-work img {
     width: 12rem;
@@ -283,14 +325,16 @@ html {
     width: 12rem;
     height: 10rem;
   }
-  .row .texto {
-    height: 45vh;
-    padding: 0.5rem;
+  .texto {
+    width: 13em;
+    height: 39em;
   }
-  .about .texto .text-yo {
-    margin: 0;
-    padding: 0;
-    height: 35vh;
+  .imagen {
+    margin-bottom: 5em;
+  }
+  .img-yo {
+    width: 18rem;
+    height: 32em;
   }
   .conteinerImg {
     display: grid;

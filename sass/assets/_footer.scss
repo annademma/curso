@@ -1,11 +1,11 @@
 $color-footer: #33a560;
-$padding-footer: 1.25em;
 
 footer{
+    height: 5.5rem;
     background-color: $color-footer;
     text-align: center;
-    padding-top: $padding-footer;
-    padding-bottom: $padding-footer;
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
     .footer-texto{
         p{
             margin: 0;
@@ -14,7 +14,8 @@ footer{
     .redes-sociales{
         a{
             img:hover{
-                filter: contrast(0.9);
+                transform: scale(1.1);
+                transition-duration: 0.5s;
             }
         }
     }
