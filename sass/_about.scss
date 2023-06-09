@@ -17,35 +17,46 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    .img-yo{
+    margin-bottom: 2.5em;
+    
+}
+.img-yo{
         width: 20rem;
         height: 35rem;
         border-radius: 60%;
         border: $white-color solid 5px;
     }
-}
-
 .texto{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: $white-color solid 2px;
+    border: $white-color solid 3px;
     background: $backgrund-about;
     padding: 0;
     background-size: cover;
     background-position: center;
     opacity: 0.9;
-    .text-yo{
-        color: $white-color;
-        height: 12.5rem;
-        width: 40.625rem;
-        padding: 1.25em;
-        padding-right: 3.75em;
-        margin-right: 5.625em;
-        display: flex;
-        justify-content: right;
-        align-items: center;
-    }
 }
+
+.text-yo{
+    color: $white-color;
+    height: fit-content;
+    width: fit-content;
+    padding: 1.25em;
+    padding-right: 1em;
+    margin-right: 1em;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
 
 

@@ -46,6 +46,7 @@ $grid-container-padding: 1.25em;
         height: $work-height;
         width: $work-width;
         border: $work-border;
+        border-radius: 8px;
     }
     img:hover{
         filter: opacity(0.9);

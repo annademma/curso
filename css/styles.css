@@ -100,6 +100,7 @@ footer .redes-sociales a img:hover {
   height: 12.5em;
   width: 18.75em;
   border: #b6eea6 solid 6px;
+  border-radius: 8px;
 }
 .grid-item img:hover {
   filter: opacity(0.9);

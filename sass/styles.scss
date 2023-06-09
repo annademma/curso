@@ -32,10 +32,13 @@ html {
 
 
 
-/*max-width (menor a mayor)*/
-
-@media (max-width: 1200px){
-
+@media (max-width: 600px){
+    .texto{
+        padding: 1em;
+    }
+    .imagen{
+        margin-bottom: 5em;
+    }
 }
 
 
@@ -51,6 +54,9 @@ html {
         place-items: center;
         width: 65%;
         margin: 0;
+    }
+    .imagen{
+        margin-bottom: 5em;
     }
 }
 
@@ -91,15 +97,16 @@ html {
         height: 10rem;
     }
 
-
-    .row .texto{
-        height: 45vh;
-        padding: 0.5rem;
+    .texto{
+        width: 13em;
+        height: 39em;
     }
-    .about .texto .text-yo{
-        margin: 0;
-        padding: 0;
-        height: 35vh;
+    .imagen{
+        margin-bottom: 5em;
+    }
+    .img-yo{
+        width: 18rem;
+        height: 32em;
     }
 
     .conteinerImg{
@@ -121,3 +128,5 @@ html {
         font-size: 1em;
     }
 }
+
+
