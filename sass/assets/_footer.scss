@@ -1,0 +1,21 @@
+$color-footer: #33a560;
+$padding-footer: 1.25em;
+
+footer{
+    background-color: $color-footer;
+    text-align: center;
+    padding-top: $padding-footer;
+    padding-bottom: $padding-footer;
+    .footer-texto{
+        p{
+            margin: 0;
+        }
+    }
+    .redes-sociales{
+        a{
+            img:hover{
+                filter: contrast(0.9);
+            }
+        }
+    }
+}

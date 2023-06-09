@@ -1,0 +1,310 @@
+footer {
+  background-color: #33a560;
+  text-align: center;
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+}
+footer .footer-texto p {
+  margin: 0;
+}
+footer .redes-sociales a img:hover {
+  filter: contrast(0.9);
+}
+
+.header-all .navbar {
+  justify-content: center;
+  position: sticky;
+}
+.header-all .navbar .navbar-brand {
+  color: #def4c6;
+  margin: 1.25em;
+}
+.header-all .navbar .navbar-toggler {
+  margin: 1.25em;
+}
+.header-all .navbar .navbar-nav {
+  text-align: center;
+}
+.header-all .navbar .navbar-nav .nav-item .nav-link {
+  color: #def4c6;
+}
+
+.main-index {
+  background: url(../img/lawrence-kayku-ZVKr8wADhpc-unsplash.jpg);
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  height: 45rem;
+}
+
+.texto-principal h1 {
+  font-size: 4em;
+  color: #b6eea6;
+  padding-top: 0.5em;
+}
+.texto-principal h2 {
+  color: #b6eea6;
+  font-size: 2em;
+  padding-top: 1em;
+}
+.texto-principal .btn {
+  padding-top: 0.5em;
+  margin: 1em;
+}
+.texto-principal .link-btn {
+  text-decoration: none;
+  color: #b6eea6;
+}
+
+.conteiner-main .row {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.main-work {
+  background: url(../img/2983724.jpg);
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.title-work {
+  color: #1b512d;
+  text-align: center;
+  text-decoration: underline dotted;
+  padding-top: 1.875em;
+  padding-bottom: 1.875em;
+  font-size: xx-large;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18.75rem, 2fr));
+  grid-auto-rows: minmax(12.5rem, auto);
+  padding: 1.25em;
+  gap: 20px;
+  grid-auto-flow: dense;
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.25em;
+  background-position: center;
+}
+.grid-item img {
+  height: 12.5em;
+  width: 18.75em;
+  border: #b6eea6 solid 6px;
+}
+.grid-item img:hover {
+  filter: opacity(0.9);
+}
+
+.main-other {
+  background: url(../img/ronit-shaked-2tNMDLI7nm4-unsplash.jpg);
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+}
+.main-other .title h6 {
+  font-size: large;
+  text-align: center;
+  color: #def4c6;
+  padding: 2em 6em;
+}
+
+.grid-container-work {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(31.25rem, 1fr));
+  grid-auto-rows: minmax(12.5rem, auto);
+  padding: 1.25em;
+  gap: 20px;
+  grid-auto-flow: dense;
+}
+
+.grid-item-work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.25em;
+  background-position: centers;
+}
+.grid-item-work img {
+  height: 38rem;
+  width: 31.25rem;
+  border: #def4c6 solid 6px;
+  border-radius: 5px;
+  border-bottom: #def4c6 solid 5.313rem;
+}
+.grid-item-work img:hover {
+  filter: opacity(0.9);
+}
+
+main {
+  background-color: #33a560;
+}
+main .about {
+  background-color: #084e31;
+  padding: 5em;
+}
+
+.imagen {
+  height: 31.25rem;
+  width: 37.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagen .img-yo {
+  width: 20rem;
+  height: 35rem;
+  border-radius: 60%;
+  border: #def4c6 solid 5px;
+}
+
+.texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #def4c6 solid 2px;
+  background: url(../img/lawrence-kayku-ZVKr8wADhpc-unsplash.jpg);
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+}
+.texto .text-yo {
+  color: #def4c6;
+  height: 12.5rem;
+  width: 40.625rem;
+  padding: 1.25em;
+  padding-right: 3.75em;
+  margin-right: 5.625em;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.main-contact {
+  color: #def4c6;
+  background-color: #084e31;
+}
+.main-contact .text-contact {
+  text-align: center;
+  padding-top: 1em;
+}
+
+form {
+  padding: 4em 4em 4em 4em;
+}
+form .mb-3 .form-text {
+  color: #def4c6;
+}
+
+.container-fluid .display-contact {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 2em;
+}
+.container-fluid .contact-social-media {
+  border: solid #b6eea6 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 0.5em;
+  margin-top: 5.2em;
+  height: 10rem;
+  width: 18rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Delicious Handrawn", cursive;
+  font-family: "Roboto Mono", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.title h2 {
+  color: #def4c6;
+  text-align: center;
+  text-decoration: underline dotted;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/*max-width (menor a mayor)*/
+@media (max-width: 480px) {
+  .grid-item-work img {
+    width: 80%;
+    height: 80%;
+  }
+  .grid-item-work {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    width: 65%;
+    margin: 0;
+  }
+}
+@media (max-width: 320px) {
+  .main-other .title h6 {
+    padding: 2em 2em;
+  }
+  .grid-item-work {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    grid-auto-rows: minmax(10rem, auto);
+    width: 15rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .grid-item-work img {
+    width: 12rem;
+    height: 18rem;
+  }
+  .grid-container {
+    padding: 3.5em;
+  }
+  .grid-item {
+    width: 10rem;
+  }
+  .grid-container .grid-item img {
+    width: 12rem;
+    height: 10rem;
+  }
+  .row .texto {
+    height: 45vh;
+    padding: 0.5rem;
+  }
+  .about .texto .text-yo {
+    margin: 0;
+    padding: 0;
+    height: 35vh;
+  }
+  .conteinerImg {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .conteinerImg .imgDecoracion {
+    width: 50%;
+  }
+  .texto-principal h1 {
+    font-size: 3em;
+    padding-top: 1em;
+  }
+  .texto-principal h2 {
+    font-size: 1em;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

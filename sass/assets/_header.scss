@@ -1,0 +1,24 @@
+$header-margin:1.25em;
+$header-color:#def4c6;
+
+.header-all{
+    .navbar{
+        justify-content: center;
+        position: sticky;
+        .navbar-brand{
+            color:$header-color;
+            margin: $header-margin;
+        }
+        .navbar-toggler{
+            margin: $header-margin;
+        }
+        .navbar-nav{
+            text-align: center;
+            .nav-item{
+                .nav-link{
+                    color: $header-color;
+                }
+            }
+        }
+    }
+}

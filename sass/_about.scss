@@ -1,0 +1,51 @@
+$green-dark-color:#084e31;
+$green-light-color: #33a560;
+$white-color:#def4c6;
+$backgrund-about: url(../img/lawrence-kayku-ZVKr8wADhpc-unsplash.jpg);
+
+main{
+    background-color:$green-light-color;
+    .about{
+        background-color: $green-dark-color;
+        padding: 5em;
+    }
+}
+
+.imagen{
+    height: 31.25rem;
+    width: 37.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .img-yo{
+        width: 20rem;
+        height: 35rem;
+        border-radius: 60%;
+        border: $white-color solid 5px;
+    }
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: $white-color solid 2px;
+    background: $backgrund-about;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    .text-yo{
+        color: $white-color;
+        height: 12.5rem;
+        width: 40.625rem;
+        padding: 1.25em;
+        padding-right: 3.75em;
+        margin-right: 5.625em;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+}
+
+

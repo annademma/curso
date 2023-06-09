@@ -1,0 +1,39 @@
+$green-dark-color:#084e31;
+$green-light-color: #33a560;
+$white-color:#def4c6;
+$green-light-light-color:#b6eea6;
+
+.main-contact{
+    color: $white-color;
+    background-color: $green-dark-color;
+    .text-contact{
+        text-align: center;
+        padding-top: 1em;
+    }
+}
+
+form{
+    padding: 4em 4em 4em 4em;
+    .mb-3 .form-text{
+        color: $white-color;
+    }
+}
+
+
+.container-fluid{
+    .display-contact{
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 2em;
+    }
+    .contact-social-media{
+        border: solid $green-light-light-color 5px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 0.5em;
+        margin-top: 5.2em;
+        height: 10rem;
+        width: 18rem;
+    }
+}
