@@ -31,6 +31,12 @@ html {
 }
 
 
+@media (max-width: 770px){
+    .main-contact{
+        height: 45rem;
+    }
+}
+
 
 @media (max-width: 600px){
     .texto{
@@ -43,6 +49,11 @@ html {
         width: 70%;
         height: 95%;
     }
+
+    .main-other{
+        width: 100%;
+    }
+
 }
 
 
@@ -57,13 +68,20 @@ html {
         grid-template-columns: 1fr;
         place-items: center;
         width: 65%;
-        margin: 0;
-        padding-left: 3em;
+        margin-left: 3%;
+        padding-left: 1.1em;
     }
     .imagen{
         margin-bottom: 5em;
     }
+    .texto-principal h2{
+        font-size: 1.5em;
+    }
+    .texto-principal h1{
+        font-size: 2.5em;
+    }
 }
+
 
 
 @media (max-width: 320px) {
@@ -81,7 +99,8 @@ html {
         width: 15rem;
         align-items: center;
         justify-content: center;
-        padding-left: 2em;
+        padding-left: 2.6em;
+        margin: 2%;
     }
     
     .grid-item-work img{

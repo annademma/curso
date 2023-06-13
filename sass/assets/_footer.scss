@@ -1,11 +1,10 @@
 $color-footer: #33a560;
 
 footer{
-    height: 5.5rem;
     background-color: $color-footer;
     text-align: center;
-    padding-top: 1.5em;
-    padding-bottom: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     .footer-texto{
         p{
             margin: 0;

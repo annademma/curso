@@ -1,5 +1,4 @@
 $main-index-background: url(../img/lawrence-kayku-ZVKr8wADhpc-unsplash.jpg);
-$main-index-height: 29.3rem;
 
 .main-index {
     background: $main-index-background;
@@ -7,24 +6,24 @@ $main-index-height: 29.3rem;
     margin: 0;
     background-size: cover;
     background-position: center;
-    height: $main-index-height;
+    height: 29.7rem;
 }
 
 .texto-principal {
 h1 {
-    font-size: 3em;
+    font-size: 3.3em;
     color: #b6eea6;
     padding-top: 0.5em;
 }
 
 h2 {
     color: #b6eea6;
-    font-size: 1.5em;
-    padding-top: 1em;
+    font-size: 2em;
+    padding-top: 0.2em;
 }
 
 .btn {
-    padding-top: 0.5em;
+    padding-top: 0.4em;
     margin: 0.3em;
 }
 

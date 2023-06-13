@@ -1,9 +1,8 @@
 footer {
-  height: 5.5rem;
   background-color: #33a560;
   text-align: center;
-  padding-top: 1.5em;
-  padding-bottom: 0.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 footer .footer-texto p {
   margin: 0;
@@ -37,21 +36,21 @@ footer .redes-sociales a img:hover {
   margin: 0;
   background-size: cover;
   background-position: center;
-  height: 29.3rem;
+  height: 29.7rem;
 }
 
 .texto-principal h1 {
-  font-size: 3em;
+  font-size: 3.3em;
   color: #b6eea6;
   padding-top: 0.5em;
 }
 .texto-principal h2 {
   color: #b6eea6;
-  font-size: 1.5em;
-  padding-top: 1em;
+  font-size: 2em;
+  padding-top: 0.2em;
 }
 .texto-principal .btn {
-  padding-top: 0.5em;
+  padding-top: 0.4em;
   margin: 0.3em;
 }
 .texto-principal .link-btn {
@@ -129,7 +128,7 @@ footer .redes-sociales a img:hover {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(31.25rem, 1fr));
   grid-auto-rows: minmax(12.5rem, auto);
-  padding: 1.25em;
+  padding: 1em;
   gap: 20px;
   grid-auto-flow: dense;
 }
@@ -138,8 +137,7 @@ footer .redes-sociales a img:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1.25em;
-  margin-bottom: 5em;
+  margin: 0;
   background-position: centers;
 }
 .grid-item-work p {
@@ -211,9 +209,9 @@ main .about {
 }
 
 .main-contact {
-  height: 29.3rem;
   color: #def4c6;
   background-color: #084e31;
+  height: 29.7rem;
 }
 .main-contact .text-contact {
   text-align: center;
@@ -224,7 +222,9 @@ main .about {
 }
 
 form {
-  padding: 4em 4em 4em 4em;
+  padding-top: 4em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
 }
 form .mb-3 .form-text {
   color: #def4c6;
@@ -241,9 +241,9 @@ form .mb-3 .form-text {
   justify-content: space-evenly;
   align-items: center;
   padding-top: 0.5em;
-  margin-top: 5.2em;
+  margin-top: 3.5em;
   height: 10rem;
-  width: 18rem;
+  width: 17.5rem;
 }
 .container-fluid .contact-social-media img:hover {
   transform: scale(1.1);
@@ -269,6 +269,11 @@ html {
   padding-bottom: 30px;
 }
 
+@media (max-width: 770px) {
+  .main-contact {
+    height: 45rem;
+  }
+}
 @media (max-width: 600px) {
   .texto {
     padding: 1em;
@@ -279,6 +284,9 @@ html {
   .grid-item-work img {
     width: 70%;
     height: 95%;
+  }
+  .main-other {
+    width: 100%;
   }
 }
 @media (max-width: 480px) {
@@ -291,11 +299,17 @@ html {
     grid-template-columns: 1fr;
     place-items: center;
     width: 65%;
-    margin: 0;
-    padding-left: 3em;
+    margin-left: 3%;
+    padding-left: 1.1em;
   }
   .imagen {
     margin-bottom: 5em;
+  }
+  .texto-principal h2 {
+    font-size: 1.5em;
+  }
+  .texto-principal h1 {
+    font-size: 2.5em;
   }
 }
 @media (max-width: 320px) {
@@ -309,7 +323,8 @@ html {
     width: 15rem;
     align-items: center;
     justify-content: center;
-    padding-left: 2em;
+    padding-left: 2.6em;
+    margin: 2%;
   }
   .grid-item-work img {
     width: 12rem;

@@ -3,10 +3,13 @@ $green-light-color: #33a560;
 $white-color:#def4c6;
 $green-light-light-color:#b6eea6;
 
+
+
+
 .main-contact{
-    height: 29.3rem;
     color: $white-color;
     background-color: $green-dark-color;
+    height: 29.7rem;
     .text-contact{
         text-align: center;
         padding-top: 2em;
@@ -17,7 +20,10 @@ $green-light-light-color:#b6eea6;
 }
 
 form{
-    padding: 4em 4em 4em 4em;
+    padding-top: 4em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+
     .mb-3 .form-text{
         color: $white-color;
     }
@@ -36,9 +42,9 @@ form{
         justify-content: space-evenly;
         align-items: center;
         padding-top: 0.5em;
-        margin-top: 5.2em;
+        margin-top: 3.5em;
         height: 10rem;
-        width: 18rem;
+        width: 17.5rem;
         img:hover{
             transform: scale(1.1);
             transition-duration: 1.5s;
