@@ -139,6 +139,8 @@ footer .redes-sociales a img:hover {
   justify-content: center;
   margin: 0;
   background-position: centers;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 .grid-item-work p {
   color: #1b512d;
@@ -269,9 +271,12 @@ html {
   padding-bottom: 30px;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 800px) {
   .main-contact {
     height: 45rem;
+  }
+  .main-index {
+    height: 36rem;
   }
 }
 @media (max-width: 600px) {
