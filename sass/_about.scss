@@ -1,6 +1,8 @@
 $green-dark-color:#084e31;
 $green-light-color: #33a560;
 $white-color:#def4c6;
+$green-dirty:#56aeb6;
+$background-title: url(../img/an-tran-xa-X3YICs3s-unsplash\ \(1\).jpg);
 $backgrund-about: url(../img/lawrence-kayku-ZVKr8wADhpc-unsplash.jpg);
 
 main{
@@ -8,7 +10,25 @@ main{
     .about{
         background-color: $green-dark-color;
         padding: 5em;
+        margin: 1.8em;
     }
+    .more-info{
+        padding: 5em;
+        border: solid 1px $white-color;
+        background: $background-title;
+        background-size: cover;
+        background-position: center;
+        opacity: 0.9;
+    }
+}
+
+.title-a h2{
+    color: #def4c6;
+    font-size: 3em;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 1.2em;
+    padding-bottom: 0.1em;
 }
 
 .imagen{
@@ -18,15 +38,16 @@ main{
     justify-content: center;
     align-items: center;
     margin-bottom: 2.5em;
-    
 }
 
 .img-yo{
         width: 20rem;
         height: 35rem;
         border-radius: 60%;
-        border: $white-color solid 5px;
+        border: $white-color solid 1px;
+        box-shadow: 0px 12px 20px rgba(17, 16, 16, 0.5);
     }
+
 .texto{
     display: flex;
     justify-content: center;
@@ -39,6 +60,7 @@ main{
     opacity: 0.9;
     .text-yo{
         color: $white-color;
+        font-size: 1.5em;
         height: fit-content;
         width: fit-content;
         padding: 1.25em;
@@ -51,10 +73,49 @@ main{
 }
 
 
+.title-about{
+    background: linear-gradient(90deg, #def4c6, #e8e5e1);
+    -webkit-background-clip: text;
+    background-clip: 0;
+    -webkit-text-fill-color: transparent;
+    margin-left: 2em;
+    border-radius: 30px;
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 2.5em;
+}
 
+.list{
+    background-color: $green-dirty;
+    opacity: 0.8;
+    border: #e8e5e1 solid 1px;
+    padding: 1em;
+    ul{
+        li{
+            color: #e8e5e1;
+            padding-top: 2em;
+            font-size: large;
+            text-align: left;
+        }
+    }
+}
 
-
-
+.despedida{
+    color: #e8e5e1;
+    background-color: #56aeb6;
+    opacity: 0.9;
+    border: #e8e5e1 solid 1px;
+    border-radius: 70px;
+    padding: 2em;
+    margin-top: 6em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: medium; 
+    font-style: italic;
+    width: fit-content;
+}
 
 
 
