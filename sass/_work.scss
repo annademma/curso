@@ -1,12 +1,12 @@
 $work-main-background: url(../img/2983724.jpg);
 $green-dark-color: #1b512d;
-$title-work-padding: 1.875em;
+$title-work-padding: 1em;
 $work-height: 12.5em;
 $work-width:18.75em;
 $work-border: #b6eea6 solid 6px;
 $grid-container-columns: repeat(auto-fill, minmax(18.75rem, 2fr));
 $grid-container-rows: minmax(12.5rem, auto);
-$grid-container-gap: 20px;
+$grid-container-gap: 30px;
 $grid-item-margin: 1.25em;
 $grid-container-padding: 1.25em;
 
@@ -24,7 +24,7 @@ $grid-container-padding: 1.25em;
     text-decoration: underline dotted;
     padding-top: $title-work-padding;
     padding-bottom: $title-work-padding;
-    font-size: xx-large;
+    font-size: 3em;
 }
 
 .grid-container{
@@ -32,6 +32,7 @@ $grid-container-padding: 1.25em;
     grid-template-columns: $grid-container-columns;
     grid-auto-rows: $grid-container-rows;
     padding: $grid-container-padding;
+    padding-bottom: 6em;
     gap: $grid-container-gap;
     grid-auto-flow: dense;
 }

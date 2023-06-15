@@ -13,7 +13,8 @@ main{
         margin: 1.8em;
     }
     .more-info{
-        padding: 5em;
+        padding: 4em;
+        padding-top: 20em;
         border: solid 1px $white-color;
         background: $background-title;
         background-size: cover;
@@ -52,7 +53,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: $white-color solid 3px;
+    border: $white-color solid 0.5px;
     background: $backgrund-about;
     padding: 0;
     background-size: cover;
@@ -74,10 +75,7 @@ main{
 
 
 .title-about{
-    background: linear-gradient(90deg, #def4c6, #e8e5e1);
-    -webkit-background-clip: text;
-    background-clip: 0;
-    -webkit-text-fill-color: transparent;
+    color: $white-color;
     margin-left: 2em;
     border-radius: 30px;
     font-size: 3em;
@@ -90,12 +88,12 @@ main{
     background-color: $green-dirty;
     opacity: 0.8;
     border: #e8e5e1 solid 1px;
-    padding: 1em;
+    padding: 2em;
     ul{
         li{
             color: #e8e5e1;
             padding-top: 2em;
-            font-size: large;
+            font-size: larger;
             text-align: left;
         }
     }
@@ -108,7 +106,8 @@ main{
     border: #e8e5e1 solid 1px;
     border-radius: 70px;
     padding: 2em;
-    margin-top: 6em;
+    margin-top: 18em;
+    margin-bottom: 6em;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
