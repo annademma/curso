@@ -6,30 +6,36 @@ $main-index-background: url(../img/lawrence-kayku-ZVKr8wADhpc-unsplash.jpg);
     margin: 0;
     background-size: cover;
     background-position: center;
-    height: 29.7rem;
+    height: 75vh;
 }
 
 .texto-principal {
 h1 {
-    font-size: 2.8em;
+    font-size: 2.9em;
     color: #b6eea6;
     padding-top: 0.5em;
+    font-weight: 600;
+    font-style: oblique;
 }
 
 h2 {
     color: #b6eea6;
-    font-size: 2em;
+    font-size: 1.8em;
     padding-top: 0.2em;
+    font-style: oblique;
+    margin-top: 0.4em;
 }
 
 .btn {
     padding-top: 0.4em;
-    margin: 0.3em;
+    margin: 0.2em;
+    margin-top: 0.5em;
 }
 
 .link-btn {
     text-decoration: none;
     color: #b6eea6;
+    font-style: oblique;
 }
 }
 

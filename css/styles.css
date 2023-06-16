@@ -1,8 +1,8 @@
 footer {
   background-color: #33a560;
   text-align: center;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 0.8em;
+  height: 12vh;
 }
 footer .footer-texto p {
   margin: 0;
@@ -36,26 +36,32 @@ footer .redes-sociales a img:hover {
   margin: 0;
   background-size: cover;
   background-position: center;
-  height: 29.7rem;
+  height: 75vh;
 }
 
 .texto-principal h1 {
-  font-size: 2.8em;
+  font-size: 2.9em;
   color: #b6eea6;
   padding-top: 0.5em;
+  font-weight: 600;
+  font-style: oblique;
 }
 .texto-principal h2 {
   color: #b6eea6;
-  font-size: 2em;
+  font-size: 1.8em;
   padding-top: 0.2em;
+  font-style: oblique;
+  margin-top: 0.4em;
 }
 .texto-principal .btn {
   padding-top: 0.4em;
-  margin: 0.3em;
+  margin: 0.2em;
+  margin-top: 0.5em;
 }
 .texto-principal .link-btn {
   text-decoration: none;
   color: #b6eea6;
+  font-style: oblique;
 }
 
 .conteiner-main .row {
@@ -118,18 +124,24 @@ footer .redes-sociales a img:hover {
   background-size: cover;
   background-position: center;
 }
-.main-other .title h6 {
-  font-size: large;
+.main-other .title-o h2 {
+  color: #def4c6;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: underline dotted;
+  padding-top: 2.5em;
+  padding-bottom: 1.5em;
+  padding: 1em;
+}
+.main-other .title-o h6 {
+  font-size: x-large;
   text-align: center;
   color: #def4c6;
-  padding: 2em 6em;
-  padding-bottom: 8em;
+  padding-bottom: 3em;
+  padding: 0.5em;
 }
 
 .grid-container-work {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(31.25rem, 1fr));
-  grid-auto-rows: minmax(12.5rem, auto);
   padding: 1em;
   padding-bottom: 12em;
   gap: 20px;
@@ -142,8 +154,8 @@ footer .redes-sociales a img:hover {
   justify-content: center;
   margin: 0;
   background-position: centers;
-  padding-top: 2em;
-  padding-bottom: 3em;
+  padding-top: 8em;
+  padding-bottom: 8em;
 }
 .grid-item-work p {
   color: #1b512d;
@@ -156,11 +168,11 @@ footer .redes-sociales a img:hover {
   font-style: italic;
 }
 .grid-item-work img {
-  height: 38rem;
-  width: 31.25rem;
-  border: #def4c6 solid 8px;
+  height: 39rem;
+  width: 29rem;
+  border: #def4c6 solid 10px;
   border-radius: 5px;
-  border-bottom: #def4c6 solid 5.313rem;
+  border-bottom: #def4c6 solid 6.9rem;
 }
 .grid-item-work img:hover {
   filter: opacity(0.9);
@@ -277,7 +289,7 @@ main .more-info {
 .main-contact {
   color: #def4c6;
   background-color: #084e31;
-  height: 29.7rem;
+  height: 75vh;
 }
 .main-contact .text-contact {
   text-align: center;
@@ -314,6 +326,10 @@ form .mb-3 .form-text {
 .container-fluid .contact-social-media img:hover {
   transform: scale(1.1);
   transition-duration: 1.5s;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 * {
